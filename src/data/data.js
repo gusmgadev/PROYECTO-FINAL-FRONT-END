@@ -118,7 +118,7 @@ const DATA_MOOK = [
   },
   {
     nombre: 'Biggs Darklighter',
-    id: 7,
+    id: 9,
     thumbnail: '/imagenes/Biggs Darklighter.jpg',
     ultima_conexion: 'hoy',
     team: 'Sith',

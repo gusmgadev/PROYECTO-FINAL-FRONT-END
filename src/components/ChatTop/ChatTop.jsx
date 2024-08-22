@@ -4,8 +4,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useGlobalContext } from '../../context/GlobalContext'
 
 const ChatTop = ({ title, thumbnail, idContacto }) => {
+//Este componente representa la cabecera del chat, donde se visualiza el nombre del contacto y la imagen del contacto
   const { searchTerm, handleChangeSearchTerm } = useGlobalContext();
-
   const navigate = useNavigate();
   let claseHeader = ''
   if (idContacto != "Contactos") {
@@ -21,35 +21,27 @@ const ChatTop = ({ title, thumbnail, idContacto }) => {
   const handleOnClick = (id) => {
 
     console.log(id)
-    //navigate('/InfoPage/'+id);
-      if (id != "Contactos") {
+    if (title != 'Contactos') {
+      //Se abrira una nueva pestaña donde se visualizará la informacion del contacto (correspondiente al perfil Star Wars que se obtiene de la API)
+      const url = window.location.origin + '/InfoPage/' + id
+      window.open(url, '_blank')
 
-        const url = window.location.origin + '/InfoPage/'+id
-        window.open(url, '_blank')
-        
-      }
-
-
-
-    
+    }
   }
-
-  const claseBuscar = title=='Contactos' ? 'busca' : 'noBusca'
+  const claseBuscar = title == 'Contactos' ? 'busca' : 'noBusca'
   console.log(claseBuscar)
   return (
     <div className="chatTop">
-      <div className= {claseHeader} onClick={() => handleOnClick(idContacto)}>
+      <div className={claseHeader} onClick={() => handleOnClick(idContacto)}>
         <div className="imageContacts">
           <img src={thumbnail} alt="" />
         </div>
         <p>{title}</p>
       </div>
-
       <div className='close' >
-        <button className = {title}	onClick={handleClick}><i className="bi bi-x"></i></button>
+        <button className={title} onClick={handleClick}><i className="bi bi-x"></i></button>
       </div>
     </div>
   )
 }
-
 export default ChatTop
