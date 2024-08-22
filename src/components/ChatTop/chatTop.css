@@ -1,0 +1,81 @@
+.chatTop{
+  width: 100%;
+  height: 160px;
+  background-color: #0071B7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 10px;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  background-image: url('/imagenes/BGChatTop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(227, 254, 175);
+  border-radius: 12px;
+}
+
+.chatTop button{
+  font-size: 40px;
+  color: #ebef74;
+  border-radius: 20%;
+}
+
+.chatTop button:hover{
+  cursor: pointer;
+  background-color: #0d8dc4e7;
+  transition: 200ms ease-in-out;
+}
+
+.InfoContacto:hover{
+  transition: ease-in-out 150ms;
+  /* background-color: #5bceffa6; */
+  box-shadow: 0 0px 16px #a6d569e7;
+  cursor: pointer;
+}
+
+ .InfoContacto{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: self-center;
+  border: 1px solid rgb(113, 113, 113);
+   border-radius: 16px;
+  padding: 2px;
+}
+
+
+.noInfo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: self-center;
+  border: 1px solid rgb(113, 113, 113);
+   border-radius: 16px;
+  padding: 2px;
+}
+
+.close .Contactos{
+  display: none;
+
+
+}
+.chatTop .busca{
+  display: flex;
+  font-size: 22px;
+  
+}
+.chatTop .noBusca{
+  display: none;
+}

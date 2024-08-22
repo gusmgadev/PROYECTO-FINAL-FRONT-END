@@ -1,0 +1,42 @@
+.chatBottom{
+  width: 100%;
+  height: 85px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px -1px 16px 4px rgb(227, 254, 175);
+}
+
+.chatBottom button{
+  font-size: 28px;
+  padding: 0px 10px;
+  border: none;
+  background: rgb(118, 175, 19);
+  color: white;
+  width: 80px;
+  text-align: center;
+  height: 100%;
+}
+
+.chatBottom button:hover{
+  cursor: pointer;
+  background-color: rgba(35, 145, 8, 0.85);
+  transition: 200ms ease-in-out;
+}
+
+.chatBottom input{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  padding: 5px 16px;
+  font-weight: 400;
+}

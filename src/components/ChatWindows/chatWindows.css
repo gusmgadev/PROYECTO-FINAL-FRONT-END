@@ -1,0 +1,62 @@
+.chatWindow{
+  width: 95%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  margin-top: 12px;
+  flex-direction: column;
+  gap: 2px;
+  padding: 10px;
+  overflow-y: scroll;
+  scrollbar-width:auto;
+  font-weight: 300;
+  margin: 1px;
+  justify-content: flex-start;
+}
+
+.chatWindow .leftRender{
+  background-color: rgb(153, 220, 94);
+  color: #000000;
+  align-self: flex-start;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chatWindow .rigthRender{
+  background-color: rgb(202, 255, 175);
+  align-self: flex-end;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chatWindow .leftRender .state{
+  flex-direction: row-reverse;
+}
+.chatWindow .rigthRender .state{
+  color: #18191a; 
+}
+
+.chatWindow .state .time{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-direction: row;
+}
+.chatWindow .state{
+  padding-top: 3px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #18191a;
+  font-size: 12px;
+  
+}

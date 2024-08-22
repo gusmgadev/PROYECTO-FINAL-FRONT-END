@@ -1,0 +1,86 @@
+.contactsView{
+  width: 95%;
+  height: 100%;
+  display: flex;  
+  margin-top: 12px;
+  gap: 10px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  scrollbar-width: auto ;
+  font-weight: 300;
+  margin: 1px;
+  background-color: white;
+
+ 
+}
+.contactsView .contacts{
+  width: 90%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: self-center;
+  border: 2px solid rgb(227, 254, 175);
+   border-radius: 16px;
+  padding: 2px;
+}
+
+.contacts:hover{
+  transition: ease-in-out 150ms;
+  /* background-color: #5bceffa6; */
+  box-shadow: 0 0px 16px #a6d569e7;
+  cursor: pointer;
+}
+
+
+
+.imageContacts{
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(202, 207, 52);
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #5e5e5ee7;
+  
+}
+
+.imageContacts img{
+  width: 100%;
+}
+
+.infoContact{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 80%;
+}
+
+.nameContacts {
+  width: 80%;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.lastMessage {
+  font-size: 12px;
+  color: #565667;
+  font-weight: 700;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2C2D3A
+}
+
+.lastConection {
+  font-size: 10px;
+  color: #565667;
+  font-weight: 700;
+}
