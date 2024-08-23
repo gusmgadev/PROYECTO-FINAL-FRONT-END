@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './ChatBottom.css';
+import './chatBottom.css';
 import {useGlobalContext} from '../../context/GlobalContext'
 const ChatBottom = ({idContacto}) => {
 // ChatBottom . Es el componenete que representa la parte inferior de la pantalla del chat, donde se va a poder filtrar y buscar contactos.
