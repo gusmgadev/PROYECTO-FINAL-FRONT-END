@@ -1,7 +1,7 @@
 const DATA_MOOK = [
   {
     nombre: 'Luke Skywalker',
-    thumbnail: '/imagenes/luke.png',
+    thumbnail: '/imagenes/luke.jpg',
     ultima_conexion: 'ayer',
     id: 1,
     team: 'Jedi',
