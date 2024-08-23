@@ -2,7 +2,7 @@ import React from 'react';
 import './chatWindows.css';
 
 const ChatWindows = ({memoryMensajes}) => {
-
+  //componente que contiene los mensajes de un contacto
   const mapping = memoryMensajes.map((item) => {
     const render = item.author !== 'yo' ? 'leftRender' : 'rigthRender';
     return (

@@ -14,11 +14,7 @@ const Contacts = () => {
 
   const contactList = contactos.map((contact)=>{
     
-
-  //const contactList = DATA_MOOK.map((contact)=>{
-    
     const lastMessage =contact.mensajes[contact.mensajes.length - 1].content;
-
     const lastHour = contact.mensajes[contact.mensajes.length - 1].hour;
 
     return (

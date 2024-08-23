@@ -4,8 +4,6 @@ import { useGlobalContext } from '../../context/GlobalContext'
 const HomeBottom = () => {
   const { searchTeam, handleChangeSearchTeam, setSearchTeam } = useGlobalContext();
 
-
-
 const handleClickJedi = () => {
  
   setSearchTeam('Jedi')

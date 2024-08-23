@@ -38,7 +38,7 @@ const ContactInfo = ({idPersonaje}) => {
     return <div className='contactInfo'>Error: {error}</div>;
   }
 
-  // Renderizado de los datos de personaje Skywalker
+  // Renderizado de los datos del personaj
 
   
   return (
