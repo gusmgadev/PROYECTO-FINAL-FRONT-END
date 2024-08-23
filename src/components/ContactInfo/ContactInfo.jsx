@@ -43,9 +43,7 @@ const ContactInfo = ({idPersonaje}) => {
   
   return (
     <div className='contactInfo'>
-      <div className='contactImage'>
-      <img  src={contacto.thumbnail} alt="" />
-      </div>
+
    
       <h1>{personaje.name}</h1>
       <div className='datos'>
@@ -59,7 +57,9 @@ const ContactInfo = ({idPersonaje}) => {
         <p><strong>Género:</strong> {personaje.gender}</p>
 
       </div>
-
+      <div className='contactImage'>
+      <img  src={contacto.thumbnail} alt="" />
+      </div>
     </div>
   );
 }

@@ -33,4 +33,23 @@
     object-fit: cover;
     width:80%;
     height: auto;
+    position: static;
+
+
+
+  }
+  @media screen and (max-height: 500px) {
+    .contactInfo {
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      
+     
+    }
+  } 
+    @media screen and (max-width: 500px) and (max-height: 500px){
+      .contactInfo .contactImage{
+        display: none;
+       
+      }
   }

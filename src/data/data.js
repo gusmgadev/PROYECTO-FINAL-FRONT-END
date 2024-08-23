@@ -1,7 +1,7 @@
 const DATA_MOOK = [
   {
     nombre: 'Luke Skywalker',
-    thumbnail: '/imagenes/luke.webp',
+    thumbnail: '/imagenes/luke.png',
     ultima_conexion: 'ayer',
     id: 1,
     team: 'Jedi',
@@ -152,7 +152,7 @@ const DATA_MOOK = [
   {
     nombre: 'C-3PO',
     id: 2,
-    thumbnail: '/imagenes/robots.jpeg',
+    thumbnail: '/imagenes/c3po.jpg',
     ultima_conexion: 'hoy',
     team: 'Jedi',
     mensajes: [

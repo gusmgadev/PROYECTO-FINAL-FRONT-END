@@ -1,5 +1,5 @@
 .team{
-    width: 100%;
+    width: 95%;
     height: 85px;
     background-color: #554e4e;
     display: flex;
@@ -12,7 +12,7 @@
     background-image: url('/imagenes/BGChatTop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
+    
 }
 
 .teamSith{
