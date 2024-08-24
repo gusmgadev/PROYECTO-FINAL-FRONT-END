@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { ChatTop, HomeBottom,  ContactInfo } from "../../components/index";
+import { ContactInfo } from "../../components/index";
 import "./InfoPage.css";
 import { useParams } from "react-router-dom";
 import { useGlobalContext } from "../../context/GlobalContext";
-import PageBottom from "../../components/PageBottom/PageBottom";
 
+/*InfoPage: Componente que representa la pagina donde se visualiza la informacion del personaje de starwars vinculado con el contacto */
 const InfoPage = () => {
   const {obtenerContactoPorId,guardarMensajes,obtenerMensajes} = useGlobalContext()
   const parametros = useParams()

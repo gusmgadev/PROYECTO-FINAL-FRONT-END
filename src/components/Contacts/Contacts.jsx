@@ -4,6 +4,8 @@ import './Contacts.css'
 import { obtenerContactos } from '../../helpers/mensajes'
 import { useGlobalContext } from '../../context/GlobalContext'
 const Contacts = () => {
+  /*Contacts: Componente que accede a la lista de contactos, con sus respectivos mensajes y visualiza cada contacto con informacion 
+  minima en pantalla. Pudiendo hacer click sobre algun contacto para acceder al chat con dicho contacto */
   const navigate = useNavigate();
   const {contactos} = useGlobalContext()
 

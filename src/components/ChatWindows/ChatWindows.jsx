@@ -2,7 +2,8 @@ import React from 'react';
 import './chatWindows.css';
 
 const ChatWindows = ({memoryMensajes}) => {
-  //componente que contiene los mensajes de un contacto
+  /* ChatWindows: componente que contiene y visualiza los mensajes de un contacto en particular. 
+  Si el mensaje es del contacto se puestra a la izquierda, si es un mensaje mio se muestra a la derecha*/
   const mapping = memoryMensajes.map((item) => {
     const render = item.author !== 'yo' ? 'leftRender' : 'rigthRender';
     return (

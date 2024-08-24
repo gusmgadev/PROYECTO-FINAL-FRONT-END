@@ -4,7 +4,8 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useGlobalContext } from '../../context/GlobalContext'
 
 const ChatTop = ({ title, thumbnail, idContacto }) => {
-//Este componente representa la cabecera del chat, donde se visualiza el nombre del contacto y la imagen del contacto
+/*ChatTop: Este componente representa la cabecera del chat, donde se visualiza el nombre del contacto y la imagen del contacto 
+al hacer click sobre la imagen o nombre se accede a una ficha basica con datos del contacto que condice con un personaje de starwars*/
   const { searchTerm, handleChangeSearchTerm } = useGlobalContext();
   const navigate = useNavigate();
   let claseHeader = ''

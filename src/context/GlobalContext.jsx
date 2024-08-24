@@ -1,8 +1,8 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { obtenerContactos ,guardarMensajesContacto} from "../helpers/mensajes";
-import { useParams } from "react-router-dom";
-//import { v4 as uuid } from 'uuid';
 
+/*GlobalContext: contexto donde se maneja el acceso a los contactos y mensajes, se accede al localstorge y se 
+asigna a un estado */
 
 const GlobalContext = createContext()
 

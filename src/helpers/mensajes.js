@@ -1,5 +1,5 @@
 import { DATA_MOOK } from "../data/data";
-
+/*mensajes: Administra el acceso al localstorge donde se almacenan contactos y mensajes*/
 export const obtenerDatosPorId = (id) => {
   const lista_contactos = obtenerContactos()
   return lista_contactos.find(contactos => Number(contactos.id) === Number(id));

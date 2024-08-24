@@ -3,6 +3,8 @@ import { useGlobalContext } from '../../context/GlobalContext';
 import { obtenerDatosPorId } from '../../helpers/mensajes';
 import './ContactInfo.css'
 const ContactInfo = ({idPersonaje}) => {
+  /*ContactInfo: Componente que permite acceder a la informacion de un personaje de starwars, se accede por idPersonaje que es igual 
+  a idContacto */
   const [personaje, setpersonaje] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);

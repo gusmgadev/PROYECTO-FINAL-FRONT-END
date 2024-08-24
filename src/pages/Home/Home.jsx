@@ -5,6 +5,7 @@ import { ChatBottom, ChatTop } from '../../components'
 
 import {useGlobalContext} from '../../context/GlobalContext'
 import PageBottom from '../../components/PageBottom/PageBottom'
+/*Home: Componente que representa la pagina principal */
 const Home = () => {
 
   const {contactos} = useGlobalContext()
