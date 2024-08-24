@@ -2,7 +2,7 @@ import React from 'react'
 import './Home.css'
 import Contacts from '../../components/Contacts/Contacts'
 import { ChatBottom, ChatTop } from '../../components'
-import HomeBottom from '../../components/HomeBottom/HomeBottom'
+
 import {useGlobalContext} from '../../context/GlobalContext'
 import PageBottom from '../../components/PageBottom/PageBottom'
 const Home = () => {

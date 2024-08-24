@@ -45,7 +45,7 @@ const ContactInfo = ({idPersonaje}) => {
     <div className='contactInfo'>
 
    
-      <h1>{personaje.name}</h1>
+      <h1 className='nombre'>{personaje.name}</h1>
       <div className='datos'>
         
         <p><strong>Altura:</strong> {personaje.height} cm</p>

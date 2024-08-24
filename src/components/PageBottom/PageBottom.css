@@ -12,7 +12,8 @@
     background-image: url('/imagenes/BGChatTop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    margin:10px
+    margin:10px;
+    
 }
 .busqueda .inputBuscar{
     height: 20px;

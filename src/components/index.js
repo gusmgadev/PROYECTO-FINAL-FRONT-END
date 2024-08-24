@@ -3,7 +3,7 @@ import ChatTop from "./ChatTop/ChatTop";
 import ChatWindows from "./ChatWindows/ChatWindows";
 import ContactInfo from "./ContactInfo/ContactInfo";
 import Contacts from "./Contacts/Contacts";
-import HomeBottom from "./HomeBottom/HomeBottom";
+import HomeBottom from "./PageBottom/PageBottom";
 
 
 export {ChatBottom, ChatTop, ChatWindows, Contacts,ContactInfo, HomeBottom};
